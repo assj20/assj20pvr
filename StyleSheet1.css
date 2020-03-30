@@ -1,0 +1,129 @@
+﻿body
+{
+    font-size:15px;
+    
+}
+.header{
+  height:60px;
+  background-color:black;
+  color:white;
+}
+.main{
+  background-image:url("be.jpg");
+  height:500px;
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position:center;
+  padding:10px;
+  color:white;
+  
+}
+.texcenters{
+ position:absolute;
+ top:50%;
+ left:30%;
+ 
+}
+.header{
+  padding:10px;
+}
+.header-logo{
+  
+  float:left;
+  font-size:20px;
+  padding:10px 10px;
+}
+
+.headerlist{
+  
+}
+.headerlist li:hover{
+  background-color:brown;
+  opacity:0.3;
+}
+.mainn{
+  height:200px;
+  font-size:20px;
+  position:relative;
+  text-align:left;
+  left:60%
+  
+  scroll:none;
+  
+}
+.cont{
+  position:relative;
+  width:1200px;
+  height:400px;
+  
+  margin:0px auto;
+}
+.cont .box
+{
+  position:relative;
+  width:calc(400px - 30px);
+  height:calc(300px - 30px);
+  float:left;
+  margin:15px;
+  box-sizing:border-box;
+  overflow:hidden;
+  border-radius:10px;
+  background:#ff0;
+  
+}
+.contact{
+  height:200px;
+  background:cyan;
+  
+}
+
+.contact h4{
+  position:absolute;
+  right:80%;
+  left:5%;
+  
+}
+.contact p{
+  
+  font-size:20px;
+  position:absolute;
+  right:70%;
+  left:11%;
+  
+  scroll:none;
+}
+.cont .box .icon{
+  position:absolute;
+  width:100%;
+  height:100%;
+  
+  
+  
+}
+.center:hover{
+  background:blue;
+  height:100%;
+  transition:0.5s;
+  
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+.product{
+  font-size:36px;
+  text-align:center;
+}
+p.dot{
+  outline-color:red;
+    outline-style:double;
+  padding:10px;
+  margin:0px 200px 0px 50px;
+}
+li{
+    padding:20px 5px;
+    list-style:None;
+    float:right;
+}
